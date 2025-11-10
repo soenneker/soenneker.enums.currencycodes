@@ -8,7 +8,7 @@ namespace Soenneker.Enums.CurrencyCodes;
 /// </summary>
 [PublicOpenApiObject]
 [Intellenum<string>]
-public partial class CurrencyCode
+public sealed partial class CurrencyCode
 {
     /// <summary>AED currency code</summary>
     public static readonly CurrencyCode Aed = new("aed");
