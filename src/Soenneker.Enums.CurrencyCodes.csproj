@@ -14,7 +14,7 @@
         <AssemblyName>Soenneker.Enums.CurrencyCodes</AssemblyName>
         <PackageId>Soenneker.Enums.CurrencyCodes</PackageId>
         <PackageTags>enums currencycodes cards card credit debit payment processing method methods iso iso4217 4217 currencycode enum csharp dotnet c# .net</PackageTags>
-        <Copyright>Copyright © 2025 Jake Soenneker</Copyright>
+        <Copyright>Copyright © 2025-2026 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
