@@ -1,4 +1,4 @@
-﻿using Intellenum;
+using Soenneker.Gen.EnumValues;
 using Soenneker.Attributes.PublicOpenApiObject;
 
 namespace Soenneker.Enums.CurrencyCodes;
@@ -7,7 +7,7 @@ namespace Soenneker.Enums.CurrencyCodes;
 /// An ISO 4217 three-letter currency code used for identifying fiat currencies in Stripe and other payment systems.
 /// </summary>
 [PublicOpenApiObject]
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class CurrencyCode
 {
     /// <summary>AED currency code</summary>
