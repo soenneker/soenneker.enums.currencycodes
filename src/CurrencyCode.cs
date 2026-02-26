@@ -16,9 +16,6 @@ public sealed partial class CurrencyCode
     /// <summary>AFN currency code</summary>
     public static readonly CurrencyCode Afn = new("afn");
 
-    /// <summary>ALL currency code</summary>
-    public static readonly CurrencyCode All = new("all");
-
     /// <summary>AMD currency code</summary>
     public static readonly CurrencyCode Amd = new("amd");
 
