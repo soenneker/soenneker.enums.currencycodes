@@ -45,6 +45,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Gen.EnumValues" Version="4.0.25" />
-        <PackageReference Include="Soenneker.Attributes.PublicOpenApiObject" Version="4.0.38" />
+        <PackageReference Include="Soenneker.Attributes.PublicOpenApiObject" Version="4.0.39" />
     </ItemGroup>
 </Project>
