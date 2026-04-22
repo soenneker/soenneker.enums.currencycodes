@@ -1,10 +1,9 @@
-﻿using Xunit;
 
 namespace Soenneker.Enums.CurrencyCodes.Tests;
 
 public sealed class CurrencyCodeTests
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
