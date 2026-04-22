@@ -38,7 +38,7 @@ jobs:
         run: dotnet build test/Soenneker.Enums.CurrencyCodes.Tests/Soenneker.Enums.CurrencyCodes.Tests.csproj --configuration Release --no-restore --verbosity minimal
 
       - name: Test
-        run: dotnet test test/Soenneker.Enums.CurrencyCodes.Tests/Soenneker.Enums.CurrencyCodes.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
+        run: dotnet test --project test/Soenneker.Enums.CurrencyCodes.Tests/Soenneker.Enums.CurrencyCodes.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
 
       - name: Pack
         run: dotnet pack src/Soenneker.Enums.CurrencyCodes/Soenneker.Enums.CurrencyCodes.csproj --configuration Release --no-build --no-restore --output . --verbosity minimal
