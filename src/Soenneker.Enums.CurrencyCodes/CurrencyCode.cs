@@ -4,7 +4,7 @@ using Soenneker.Attributes.PublicOpenApiObject;
 namespace Soenneker.Enums.CurrencyCodes;
 
 /// <summary>
-/// An ISO 4217 three-letter currency code used for identifying fiat currencies in Stripe and other payment systems.
+/// Represents a lowercase, three-letter currency identifier used in payment and financial API contracts.
 /// </summary>
 [PublicOpenApiObject]
 [EnumValue<string>]
